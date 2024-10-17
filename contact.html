@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">  
+  
+</head>
+<body>
+    <div class="container">
+        <!-- Contact Us Header -->
+        <div class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>We're here to help! Feel free to contact us with any questions or concerns.</p>
+        </div>
+
+        <!-- Contact Form and Info Container -->
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="submit_form.php" method="POST">
+
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    </div>
+        
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email.." required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number..">
+                    </div>
+                
+                    <div>
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+                    </div>
+            
+                    <div> 
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here.." required></textarea>
+                     </div>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <p> <strong>Phone:</strong>7572016207</p>
+                </div>
+
+                <div class="info-item">
+                    <p><strong>Email:</strong>purwarpalak53@gmail.com</p>
+                </div>
+
+                <div class="info-item">
+                    <p><strong>Address:</strong>National Institue of Technology,Karnataka</p>
+                    
+                </div>
+
+
+                <!-- Optional Google Map -->
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
